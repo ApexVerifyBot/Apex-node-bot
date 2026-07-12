@@ -1,1 +1,17 @@
 
+{
+  "name": "apex-verify-bot",
+  "version": "1.0.0",
+  "description": "Apex Verify Telegram Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "fs-extra": "^11.3.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "uuid": "^11.1.0"
+  }
+}
