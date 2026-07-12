@@ -1,4 +1,10 @@
 require("./handlers/start")();
+require("./handlers/profile")();
+
+require("./handlers/support")();
+
+require("./handlers/referral")();
+
 const users = require("./utils/users");
 const banned = require("./utils/banned");
 const stats = require("./utils/stats");
