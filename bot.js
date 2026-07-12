@@ -4,6 +4,7 @@ require("./handlers/profile")();
 require("./handlers/support")();
 
 require("./handlers/referral")();
+require("./handlers/getNumber")();
 
 const users = require("./utils/users");
 const banned = require("./utils/banned");
