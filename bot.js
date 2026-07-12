@@ -1,3 +1,4 @@
+require("./handlers/start")();
 const users = require("./utils/users");
 const banned = require("./utils/banned");
 const stats = require("./utils/stats");
